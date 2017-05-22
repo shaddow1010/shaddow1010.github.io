@@ -257,7 +257,7 @@ p {
 }
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 500px) {
+@media (max-width: 481px) {
   .sidebar-wrapper {
     position: static;
     width: inherit;
