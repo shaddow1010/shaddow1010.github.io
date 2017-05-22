@@ -257,13 +257,12 @@ p {
 }
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 481px) {
+@media (max-width: 300px) {
   .sidebar-wrapper {
     position: relative;
-    width: 30%;
   }
   .main-wrapper {
-    padding: 30px;
+    padding: 15px;
   }
   .main-wrapper .time {
     position: relative;
