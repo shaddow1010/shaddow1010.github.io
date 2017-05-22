@@ -259,14 +259,14 @@ p {
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 481px) {
   .sidebar-wrapper {
-    position: static;
-    width: inherit;
+    position: relative;
+    width: 30%;
   }
   .main-wrapper {
     padding: 30px;
   }
   .main-wrapper .time {
-    position: static;
+    position: relative;
     display: block;
     margin-top: 5px;
   }
