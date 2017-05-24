@@ -42,6 +42,7 @@ a:focus {
 p {
   line-height: 1.5;
 }
+
 .wrapper {
   background: #a2a6ff;
   max-width: 960px;
@@ -74,7 +75,7 @@ p {
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 10px;
-    font-family: Lato
+  font-family: Lato
 }
 .sidebar-wrapper .tagline {
   color: rgba(255, 255, 255, 0.6);
@@ -257,15 +258,16 @@ p {
 }
 }
 /* Extra small devices (phones, less than 768px) */
-@media (max-width: 300px) {
+@media (max-width: 767px) {
   .sidebar-wrapper {
-    position: relative;
+    position: static;
+    width: inherit;
   }
   .main-wrapper {
-    padding: 15px;
+    padding: 30px;
   }
   .main-wrapper .time {
-    position: relative;
+    position: static;
     display: block;
     margin-top: 5px;
   }
